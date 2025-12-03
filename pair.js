@@ -3836,13 +3836,13 @@ case 'script': {
 case 'repo-visit': {
     await socket.sendMessage(sender, { react: { text: '🌐', key: msg.key } });
     await socket.sendMessage(sender, {
-        text: `🌐 *ᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴛʜᴇ ʀᴇᴘᴏ:*\nhttps://github.com/ib960965-cloud `,
+        text: `🌐 *ᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴛʜᴇ ʀᴇᴘᴏ:*\nhttps://github.com/ib960965-cloud/MINI-PROBL-MATIQUE-MD `,
         contextInfo: {
             externalAdReply: {
                 title: 'Visit Repository',
                 body: 'Open in browser',
                 mediaType: 1,
-                mediaUrl: 'https://github.com/ib960965-cloud,
+                mediaUrl: 'https://github.com/ib960965-cloud/MINI-PROBL-MATIQUE-MD',
                 sourceUrl: 'https://github.com/ib960965-cloud'
             }
         }
@@ -3853,7 +3853,7 @@ case 'repo-visit': {
 case 'repo-owner': {
     await socket.sendMessage(sender, { react: { text: '👑', key: msg.key } });
     await socket.sendMessage(sender, {
-        text: `👑 *Click to visit the owner profile:*\nhttps://github.com/ib960965-cloud `,
+        text: `👑 *Click to visit the owner profile:*\nhttps://github.com/ib960965-cloud/MINI-PROBL-MATIQUE-MD `,
         contextInfo: {
             externalAdReply: {
                 title: 'Owner Profile',
@@ -3883,7 +3883,7 @@ case 'repo-owner': {
                         caption: formatMessage(
                             '🗑️ SESSION DELETED',
                             '✅ Your session has been successfully deleted.',
-                            'ᴍɪɴɪ ɪɴᴄᴏɴɴᴜ xᴅ'
+                            'MINI PROBLÈMATIQUE MD'
                         )
                     });
                     break;
@@ -4253,7 +4253,7 @@ try {
 }
                 } catch (error) {
                     console.error('Connection error:', error);
-                    exec(`pm2 restart ${process.env.PM2_NAME || 'MINI-INCONNU-XD-main'}`);
+                    exec(`pm2 restart ${process.env.PM2_NAME || 'MINI-PROBL-MATIQUE-MD-main'}`);
                 }
             }
         });
@@ -4444,7 +4444,8 @@ router.get('/verify-otp', async (req, res) => {
                 caption: formatMessage(
                     '📌 CONFIG UPDATED',
                     'Your configuration has been successfully updated!',
-                    'ᴍɪɴɪ ɪɴᴄᴏɴɴᴜ xᴅ'
+                    '
+MINI PROBLÉMATIQUE MD'
                 )
             });
         }
@@ -4499,7 +4500,7 @@ process.on('exit', () => {
 
 process.on('uncaughtException', (err) => {
     console.error('Uncaught exception:', err);
-    exec(`pm2 restart ${process.env.PM2_NAME || 'MINI-INCONNU-XD-main'}`);
+    exec(`pm2 restart ${process.env.PM2_NAME || 'MINI-PROBL-MATIQUE-MD-main'}`);
 });
 
 async function updateNumberListOnGitHub(newNumber) {
